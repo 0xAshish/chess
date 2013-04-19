@@ -19,9 +19,9 @@ public class Screen extends JPanel {
   
   public Screen() throws IOException {
     _gameOver = false;
-    _bg = ImageIO.read(new File("img/background.png"));
-    _selector = ImageIO.read(new File("img/selector.png"));
-    _gameOverImg = ImageIO.read(new File("img/gameover.png"));
+    _bg = ImageIO.read(new File("../img/background.png"));
+    _selector = ImageIO.read(new File("../img/selector.png"));
+    _gameOverImg = ImageIO.read(new File("../img/gameover.png"));
     _drawSelector = false;
     _clickX = -1;
     _clickY = -1;

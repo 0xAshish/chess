@@ -58,7 +58,7 @@ public abstract class Piece {
     
     result += this.toString().toLowerCase();
     
-    return "img/" + result + ".png";
+    return "../img/" + result + ".png";
   }
   
 }
